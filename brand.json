@@ -1,0 +1,125 @@
+{
+  "_comment": "Сгенерировано NeonBuilder. Единый конфиг бренда goldgram.",
+  "product": {
+    "name": "goldgram",
+    "short_name": "goldgram",
+    "username_prefix": "goldgram",
+    "app_scheme": "goldgram",
+    "premium_name": "goldgram Premium",
+    "stars_name": "goldgram Stars",
+    "org_name": "goldgram"
+  },
+  "replace": {
+    "_comment": "Правила замены строк. Порядок важен: длинные раньше коротких.",
+    "rules": [
+      {
+        "from": "XTree Gram",
+        "to": "goldgram",
+        "skip_after": [],
+        "skip_before": []
+      },
+      {
+        "from": "Xtreegram",
+        "to": "goldgram",
+        "skip_after": [],
+        "skip_before": []
+      },
+      {
+        "from": "XTREEGRAM",
+        "to": "GOLDGRAM",
+        "skip_after": [],
+        "skip_before": []
+      },
+      {
+        "from": "NeonGram",
+        "to": "goldgram",
+        "skip_after": [],
+        "skip_before": []
+      },
+      {
+        "from": "NEONGRAM",
+        "to": "GOLDGRAM",
+        "skip_after": [],
+        "skip_before": []
+      },
+      {
+        "from": "neongram",
+        "to": "goldgram",
+        "skip_after": [],
+        "skip_before": []
+      },
+      {
+        "from": "Telegram",
+        "to": "goldgram",
+        "skip_after": [
+          ".org",
+          ".ORG"
+        ],
+        "skip_before": [
+          "/"
+        ]
+      },
+      {
+        "from": "TELEGRAM",
+        "to": "GOLDGRAM",
+        "skip_after": [
+          ".ORG"
+        ],
+        "skip_before": [
+          "/"
+        ]
+      }
+    ]
+  },
+  "android": {
+    "app_name": "goldgram",
+    "app_name_beta": "goldgram Beta",
+    "package": "com.goldgram.messenger",
+    "namespace": "org.telegram.messenger.regular",
+    "flavor": "afat",
+    "keystore_file": "release.keystore",
+    "keystore_alias": "goldgramkey",
+    "keystore_type": "PKCS12",
+    "keystore_keyalg": "RSA",
+    "keystore_keysize": 4096,
+    "keystore_validity_days": 10950,
+    "keystore_cert_sha256": "BD:61:EE:16:13:E1:A2:1C:69:83:74:5C:7B:55:22:8C:A0:29:89:56:AB:44:9F:D2:A4:2B:77:3D:D4:76:3E:80"
+  },
+  "ios": {
+    "app_name": "goldgram",
+    "bundle_id": "com.goldgram.messenger"
+  },
+  "desktop": {
+    "app_name": "goldgram Desktop",
+    "short_app_name": "goldgram",
+    "application_name": "goldgramDesktop",
+    "company_name": "goldgram",
+    "bundle_id": "com.goldgram.desktop",
+    "linux_app_id": "com.goldgram.desktop"
+  },
+  "pc_client": {
+    "distribution": "prebuilt",
+    "source_releases": "https://github.com/owpengram/owpengram-desktop-client/releases",
+    "exe_name": "goldgram.exe",
+    "server_name": "goldgram",
+    "server_description": "Self-hosted goldgram server.",
+    "server_icon_env": "TELESRV_OWPENGRAM_SERVER_ICON"
+  },
+  "server": {
+    "domain": "127.0.0.1",
+    "base_url": "http://127.0.0.1",
+    "web_base_url": "http://127.0.0.1",
+    "advertise_ip": "127.0.0.1",
+    "public_listen_host": "127.0.0.1",
+    "server_port": 2398,
+    "dc_id": 2,
+    "default_country_code": "US",
+    "websocket_allowed_origins": "http://127.0.0.1",
+    "image_prefix": "ghcr.io/iamxvbaba/gramsrv",
+    "image_tag": "main"
+  },
+  "telegram_bot": {
+    "username": "",
+    "token": "PLACEHOLDER_BOT_TOKEN"
+  }
+}
